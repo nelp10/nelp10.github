@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+
+#myDIV {
+  width: 500px;
+  height: 500px;
+  background-image: url("1.jpeg");
+  margin: 0%;
+  padding: 0%;
+  background-position: center;
+  background-size: cover
+
+}
+</style>
+</head>
+<body>
+<h1>Change background-image with JavaScript</h1>
+
+<p>Click the "Try it" button to set the background-image property of the DIV element to "3.png":</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+  <h1>Hello</h1>
+</div>
+
+<script>
+function myFunction() {
+   document.getElementById("myDIV").style.backgroundImage = "url(3.png)";
+}
+</script>
+
+</body>
+</html>
